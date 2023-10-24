@@ -196,6 +196,7 @@ button.btn-outline-dark:hover {
   gap: 16px;
   align-items: flex-start;
   justify-content: center;
+  max-width: 80%;
 }
 
 img.rounded-corners {

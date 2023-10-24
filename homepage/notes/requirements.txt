@@ -1,0 +1,22 @@
+
+FONTS:
+
+System-ui (bold) or Open sans (light)
+- <h1>
+-
+
+Lora (regular)
+- navbar
+- <p>
+
+
+COLORS:
+
+#F7F7F7
+- Background
+
+#EEF1F1
+- Contrast background
+
+#414748
+- Main text color

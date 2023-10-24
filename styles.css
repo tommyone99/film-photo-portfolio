@@ -33,7 +33,11 @@ img {
     width: 100%;
 }
 
-
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 h1, h2 {
   margin: 0rem;
@@ -219,3 +223,6 @@ iframe.rounded-corners {
   text-decoration: underline;
 }
 
+.top-space {
+  margin-top: 8px;
+}

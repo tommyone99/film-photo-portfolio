@@ -52,9 +52,37 @@
           <div class="card-body">
             <h5 class="card-title">Contact</h5>
             <p class="card-text">Email to check availability, discuss quotes, schedule a project consultation, or to just connect and say Hi. I'd love to share, learn, and talk about anything film!</p>
-            <p class="card-text">My email is: <strong>tommyone99@gmail.com</st></p>
+
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+
+                <label for="_subject">Subject</label>
+                <select name="_subject" id="email-subject" placeholder="Subject" required="">
+                  <option selected="true" disabled="disabled">Subject</option>
+                  <option value="availability">Availability</option> 
+                  <option value="quote">Quote</option> 
+                  <option value="consultation">Consultation</option> 
+                  <option value="misc">MISC.</option> 
+                </select>
+
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Your message here!" required=""></textarea>
+                
+
+
+              </fieldset>
+              <input class="top-space" type="submit" value="Submit">
+            </form>
+
           </div>
         </div>
+
+        
 
     </div>
 

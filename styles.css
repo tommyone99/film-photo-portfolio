@@ -35,6 +35,41 @@
   }
 }
 
+@media screen and (max-width: 980px) {
+  #canvas {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0px;
+
+  }
+
+  #about-me-card {
+    padding: 0rem;
+  }
+
+  .card#about-me-text {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+  }
+
+  div#about-me-pic {
+    padding: 1rem;
+  }
+
+  div.main-content {
+    max-width: 94%;
+  }
+
+  h2.section-title {
+    padding: 1rem 4rem;
+  }
+
+  .section-title#mv-title {
+    padding-bottom: 1rem;
+  }
+}
+
 h1,
 h2,
 h3,

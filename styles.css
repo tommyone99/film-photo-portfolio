@@ -8,6 +8,19 @@
   src: url(/fonts/OpenSans-SemiBold.ttf);
 }
 
+@media screen and (max-width: 500px) {
+  #canvas {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0px;
+
+  }
+
+  #about-me-text {
+    padding: 0rem;
+  }
+}
+
 h1,
 h2,
 h3,

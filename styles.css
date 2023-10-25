@@ -184,7 +184,6 @@ button.btn-outline-dark:hover {
 
 .contact-card {
   flex: 0 1 32rem;
-  margin-top: 1.5rem;
 }
 
 .maps-module-placeholder {
@@ -217,10 +216,6 @@ iframe.rounded-corners {
 
 #about-me {
   margin-bottom: 0px;
-}
-
-.underline-styling {
-  text-decoration: underline;
 }
 
 .top-space {

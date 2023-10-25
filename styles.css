@@ -16,8 +16,22 @@
 
   }
 
-  #about-me-text {
+  #about-me-card {
     padding: 0rem;
+  }
+
+  .card#about-me-text {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+  }
+
+  div#about-me-pic {
+    padding: .5rem;
+  }
+
+  div.main-content {
+    max-width: 94%;
   }
 }
 

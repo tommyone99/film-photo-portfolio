@@ -1,11 +1,15 @@
 @font-face {
   font-family: Lora;
-  src: url(/fonts/Lora-Medium.ttf);
+  src: url(/fonts/Lora-Medium.ttf) format("truetype"),
+       url(/fonts/lora-variable.woff) format("woff"),
+       url(/fonts/lora-variable.woff2) format("woff2");
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-SemiBold.ttf);
+  src: url(/fonts/OpenSans-SemiBold.ttf) format("truetype"),
+       url(/fonts/opensans-variable.woff) format("woff"),
+       url(/fonts/opensans-variable.woff2) format("woff2");
 }
 
 @media screen and (max-width: 500px) {

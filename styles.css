@@ -1,15 +1,17 @@
 @font-face {
   font-family: Lora;
-  src: url(/fonts/Lora-variable.ttf) format("truetype"),
-       url(/fonts/lora-variable.woff) format("woff"),
-       url(/fonts/lora-variable.woff2) format("woff2");
+  src: url(/fonts/Lora-variable.ttf) format("truetype");
+  src: url(/fonts/lora-variable.woff) format("woff");
+  src: url(/fonts/lora-variable.woff2) format("woff2");
+  font-weight: 1 999;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-variable.ttf) format("truetype"),
-       url(/fonts/opensans-variable.woff) format("woff"),
-       url(/fonts/opensans-variable.woff2) format("woff2");
+  src: url(/fonts/OpenSans-variable.ttf) format("truetype");
+  src: url(/fonts/opensans-variable.woff) format("woff");
+  src: url(/fonts/opensans-variable.woff2) format("woff2");
+  font-weight: 1 999;
 }
 
 @media screen and (max-width: 500px) {

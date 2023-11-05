@@ -84,8 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "OpenSans", sans-serif;
-  font-weight: 700;
+  font-family: "OpenSans", Tahoma, sans-serif;
 }
 
 .contrast-color {

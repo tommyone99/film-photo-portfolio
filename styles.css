@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-VariableFont_wdth,wght.ttf) format("truetype"),
+  src: url(/fonts/OpenSans-variable.ttf) format("truetype"),
        url(/fonts/opensans-variable.woff) format("woff"),
        url(/fonts/opensans-variable.woff2) format("woff2");
 }

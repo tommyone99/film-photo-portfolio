@@ -211,7 +211,7 @@ h1, h2 {
 
 .bigger-title {
   font-size: 20px;
-  font-weight: 700;
+  font-variation-settings: 'wght' 600;
 }
 
 .left-title-pad {

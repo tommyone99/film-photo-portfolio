@@ -1,6 +1,6 @@
 @font-face {
   font-family: Lora;
-  src: url(/fonts/Lora-Medium.ttf) format("truetype"),
+  src: url(/fonts/Lora-variable.ttf) format("truetype"),
        url(/fonts/lora-variable.woff) format("woff"),
        url(/fonts/lora-variable.woff2) format("woff2");
 }
